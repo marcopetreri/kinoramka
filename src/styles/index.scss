@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+.site {
+  &__layout {
+    @include make-container();
+    @include make-container-max-widths();
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+
+    .site__main {
+      flex: 1 0 0;
+    }
+  }
+
+  &__logo {
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+    min-width: 120px;
+  }
+
+  &__footer {
+    @include make-row();
+    padding: $spacer * 0.5 0;
+  }
+}
+
+.page {
+  &--home,
+  &--contacts {
+    .site__main {
+      text-align: center;
+    }
+  }
+}
