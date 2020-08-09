@@ -15,9 +15,10 @@ const IndexPage = () => (
             <Logo></Logo>
           </div>
           <div className='col-12 mt-3'>
-            <Link className='btn btn-link btn-lg' to='/contatti'>
+            <small>Nothing is real but you</small>
+            {/* <Link className='btn btn-link btn-lg' to='/contatti'>
               Contatti
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

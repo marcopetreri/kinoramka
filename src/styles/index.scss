@@ -31,7 +31,8 @@
 
 .page {
   &--home,
-  &--contacts {
+  &--contacts,
+  &--404 {
     .site__main {
       text-align: center;
     }
