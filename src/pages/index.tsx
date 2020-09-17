@@ -14,8 +14,12 @@ const IndexPage = () => (
           <div className='col-12'>
             <Logo></Logo>
           </div>
-          <div className='col-12 mt-3'>
-            <small>Nothing is real but you</small>
+          <div className='col-12 col-sm-8 col-md-6 col-lg-4 mt-3 mx-auto'>
+            <small>
+              Il realismo non ha assolutamente nulla a che vedere con il Reale.
+              Al contrario, il Reale è ciò che il realismo è costretto di
+              continuo a sopprimere.
+            </small>
             {/* <Link className='btn btn-link btn-lg' to='/contatti'>
               Contatti
             </Link> */}
